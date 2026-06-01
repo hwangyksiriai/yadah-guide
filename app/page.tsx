@@ -49,6 +49,18 @@ export default function Home() {
               <span className="text-gray-300 group-hover:text-[#2d5a3d] text-xl transition-colors">→</span>
             </div>
           </Link>
+
+          {/* Campaign D */}
+          <Link href="/campaign-d" className="group block bg-white rounded-xl border border-gray-200 p-7 hover:border-[#2d5a3d] hover:shadow-sm transition-all">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-xs text-[#2d5a3d] tracking-widest uppercase mb-2 font-medium">Campaign D</p>
+                <h2 className="text-lg font-semibold mb-1">선인장 수딩젤 (컨셉+자유제작)</h2>
+                <p className="text-sm text-gray-400">릴스 · 공동작업자 필수 · 3개월 유지</p>
+              </div>
+              <span className="text-gray-300 group-hover:text-[#2d5a3d] text-xl transition-colors">→</span>
+            </div>
+          </Link>
         </div>
 
         <div className="mt-10 pt-8 border-t border-gray-200">
