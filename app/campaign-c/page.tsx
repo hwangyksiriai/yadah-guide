@@ -191,11 +191,15 @@ export default function CampaignC() {
               </div>
               <div className="flex items-start gap-2">
                 <span className="text-[#2d5a3d] font-bold shrink-0">✔</span>
-                <span>① 투명하고 탱글한 젤 텍스처 강조</span>
+                <span>투명하고 탱글한 젤 텍스처 강조</span>
               </div>
               <div className="flex items-start gap-2">
                 <span className="text-[#2d5a3d] font-bold shrink-0">✔</span>
-                <span>② 피부에 바르자마자 빠르게 흡수되는 장면, 얼굴+바디 멀티 사용 장면 강조</span>
+                <span>피부에 바르자마자 빠르게 흡수되는 장면</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="text-[#2d5a3d] font-bold shrink-0">✔</span>
+                <span>얼굴+바디 멀티 사용 장면 강조</span>
               </div>
             </div>
           </div>
@@ -207,7 +211,7 @@ export default function CampaignC() {
               <h3 className="font-semibold text-sm tracking-wide">필수 해시태그</h3>
             </div>
             <div className="flex flex-wrap gap-2">
-              {["#야다", "#yadah", "#클렌징밤"].map((tag) => (
+              {["#야다", "#yadah", "#수딩젤"].map((tag) => (
                 <span
                   key={tag}
                   className="bg-[#2d5a3d]/10 text-[#2d5a3d] text-xs px-3 py-1.5 rounded-full font-medium"
