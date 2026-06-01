@@ -231,9 +231,15 @@ export default function CampaignC() {
               <span>👤</span>
               <h3 className="font-semibold text-sm tracking-wide">공동작업자 계정</h3>
             </div>
-            <div className="flex items-center gap-2 text-sm text-gray-700">
-              <span className="text-[#2d5a3d] font-bold">✔</span>
-              <span>@yadah.official</span>
+            <div className="flex flex-col gap-2 text-sm text-gray-700">
+              <div className="flex items-center gap-2">
+                <span className="text-[#2d5a3d] font-bold">✔</span>
+                <span>@yadah.official</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-[#2d5a3d] font-bold">✔</span>
+                <span>@yadah.global</span>
+              </div>
             </div>
           </div>
 
