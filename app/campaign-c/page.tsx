@@ -85,14 +85,17 @@ export default function CampaignC() {
             </div>
             <div className="flex gap-4 py-3">
               <span className="w-36 text-gray-400 shrink-0">제공 제품</span>
-              <a
-                href="https://yadah.co.kr/product/%EC%84%A0%EC%9D%B8%EC%9E%A5-%EC%88%98%EB%94%A9%EC%A0%A4-105g/420/category/374/display/1/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#2d5a3d] hover:underline"
-              >
-                선인장 수딩젤 →
-              </a>
+              <div className="flex flex-col gap-3">
+                <img src="/젤.png" alt="선인장 수딩젤" className="w-32 rounded-lg object-contain" />
+                <a
+                  href="https://yadah.co.kr/product/%EC%84%A0%EC%9D%B8%EC%9E%A5-%EC%88%98%EB%94%A9%EC%A0%A4-105g/420/category/374/display/1/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#2d5a3d] hover:underline text-sm"
+                >
+                  선인장 수딩젤 →
+                </a>
+              </div>
             </div>
           </div>
 

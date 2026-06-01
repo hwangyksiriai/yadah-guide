@@ -85,14 +85,17 @@ export default function CampaignA() {
             </div>
             <div className="flex gap-4 py-3">
               <span className="w-36 text-gray-400 shrink-0">제공 제품</span>
-              <a
-                href="https://yadah.co.kr/product/%EA%B7%B8%EB%A6%B0%ED%8B%B0-%ED%93%A8%EC%96%B4-%ED%81%B4%EB%A0%8C%EC%A7%95%EB%B0%A4-100ml/125/category/367/display/1/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#2d5a3d] hover:underline"
-              >
-                그린티 퓨어 클렌징 밤 →
-              </a>
+              <div className="flex flex-col gap-3">
+                <img src="/밤.png" alt="그린티 퓨어 클렌징 밤" className="w-32 rounded-lg object-contain" />
+                <a
+                  href="https://yadah.co.kr/product/%EA%B7%B8%EB%A6%B0%ED%8B%B0-%ED%93%A8%EC%96%B4-%ED%81%B4%EB%A0%8C%EC%A7%95%EB%B0%A4-100ml/125/category/367/display/1/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#2d5a3d] hover:underline text-sm"
+                >
+                  그린티 퓨어 클렌징 밤 →
+                </a>
+              </div>
             </div>
           </div>
         </section>
