@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:prettyactually-guide.vercel.app)",
+      "Bash(npx create-next-app@latest . --yes --typescript --tailwind --app --no-src-dir --import-alias \"@/*\")"
+    ]
+  }
+}
