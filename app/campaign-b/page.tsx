@@ -214,6 +214,56 @@ export default function CampaignB() {
 
         <hr className="border-gray-100" />
 
+        {/* 4. 정산 */}
+        <section>
+          <p className="text-xs tracking-[0.25em] uppercase text-[#2d5a3d] mb-1">04</p>
+          <h2 className="text-xl font-semibold mb-4">정산</h2>
+          <p className="text-sm leading-relaxed text-gray-600 mb-6">
+            캠페인 선정 완료 후 정산을 위한 서류 및 연락처를 누락 없이 제출해 주세요. 확인 후 1~2주 이내에 처리가 완료됩니다.
+          </p>
+          <div className="space-y-3">
+            <div className="rounded-lg border border-gray-100 bg-gray-50 p-5">
+              <p className="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-3">제출 필수 서류</p>
+              <ul className="space-y-2 text-sm text-gray-700">
+                {["성함", "연락처", "신분증 사본 (뒷자리 포함)", "통장 사본"].map((item) => (
+                  <li key={item} className="flex items-center gap-2">
+                    <span className="text-[#2d5a3d] font-bold">✔</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="rounded-lg border border-gray-100 bg-gray-50 p-5 space-y-3">
+              <div className="flex gap-4 text-sm">
+                <span className="w-28 text-gray-400 shrink-0">수신 이메일</span>
+                <a href="mailto:hwangyksiriai@gmail.com" className="text-[#2d5a3d] hover:underline">hwangyksiriai@gmail.com</a>
+              </div>
+              <div className="flex gap-4 text-sm">
+                <span className="w-28 text-gray-400 shrink-0">메일 제목</span>
+                <span className="text-gray-700 font-mono text-xs bg-gray-100 px-2 py-0.5 rounded">야다_이름_@인스타핸들</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr className="border-gray-100" />
+
+        {/* 5. 신청서 작성 */}
+        <section>
+          <p className="text-xs tracking-[0.25em] uppercase text-[#2d5a3d] mb-1">05</p>
+          <h2 className="text-xl font-semibold mb-4">신청서 작성</h2>
+          <a
+            href="https://forms.gle/jhSGdTt46re29KAk9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-[#2d5a3d] text-white text-sm font-medium px-6 py-3 rounded-lg hover:bg-[#224430] transition-colors"
+          >
+            신청서 작성하기 →
+          </a>
+        </section>
+
+        <hr className="border-gray-100" />
+
       </div>
 
       <footer className="text-center py-8 text-xs text-gray-300 tracking-widest">
